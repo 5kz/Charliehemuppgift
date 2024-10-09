@@ -15,13 +15,16 @@
     background-repeat: no-repeat;background-size: cover;
 }
 
+.textunder{
+    background-color: #7851A9;
+}
 .smoke{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, transparent, #ffffff);
+    --background: linear-gradient(to right, transparent, #ffffff);
 
 }
 .smoke h1{
@@ -34,7 +37,7 @@
 .divider{
     height: 50px;
     width: 100%;
-    background-color: #50C878;
+    background-color: #000080;
     display: flex;
     align-items: center;
     padding: 0 5rem;
@@ -54,6 +57,7 @@
     width: 100%;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
+    background-color: #7851A9;
 }
 
 .pictures img{
@@ -67,19 +71,20 @@
     padding: 20px;
     justify-content: space-between;
     font-family: sans-serif;
+    color: #dcdcdc;
 }
 
 .textvänster{
     width: 50%;
     padding: 20px;
-    background-color: #7851A9;
+    background-color: #000080;
 
 }
 
 .texthöger{
     width: 50%;
     padding: 20px;
-    background-color: #7851A9;
+    background-color: #000080;
 }
 
 .textvänster img{
@@ -88,5 +93,30 @@
     padding: 0px;
     float: right;
 }
+
+button {
+    background-color: #6a0dad; /* Royal purple */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #7d3ec4; /* Lighter purple on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+    background-color: #5a0c9d; /* Darker shade when clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow when clicked */
+    transform: translateY(1px); /* Button lowers when clicked */
+}
+
 
 
